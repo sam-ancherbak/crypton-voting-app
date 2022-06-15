@@ -1,15 +1,3 @@
-# Basic Sample Hardhat Project
+# Voting App
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Смарт контракт предназначен для создания голосований со списком кандидатов, с возможностью других пользователей выбирать победителя. Для участия в голосовании необходимо внести 0,01 ETH. Победитель голосования забирает всю собранную сумму с вычетом комиссии.
